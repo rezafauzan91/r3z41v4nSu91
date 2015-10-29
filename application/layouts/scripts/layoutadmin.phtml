@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<?php echo $this->render('include/header.phtml') ?>
+	 </head>
+	 <body class="fixed-left">
+	 	<!-- Begin page -->
+        <div id="wrapper">
+			<?php echo $this->render('include/nav.phtml') ?>
+			<?php echo $this->render('include/sidebar.phtml') ?>
+			<?php echo $this->layout()->content; ?>
+		</div>
+        <!-- END wrapper -->
+	 </body>
+</html>

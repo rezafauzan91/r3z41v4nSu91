@@ -1,0 +1,19 @@
+<?php echo $this->render('index/include/header.phtml') ?>
+	 <body>
+	 	<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+
+        <div id="loader" class="overlay-one">
+            <div class="loader">Loading...</div>
+        </div>
+        
+	 	<!-- Begin page -->
+			<?php echo $this->render('index/include/nav.phtml') ?>
+			<?php echo $this->layout()->content; ?>
+        <!-- END wrapper -->
+<?php echo $this->render('index/include/footer.phtml') ?>
+	 </body>
+</html>
