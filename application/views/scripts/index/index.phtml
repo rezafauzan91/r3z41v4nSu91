@@ -214,8 +214,8 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="thumb-area">
-                                    <img src="img/iphone-black-02.png" alt="" class="" data-wow-delay=".4s">
-                                    <img src="img/iphone-white-03-small.png" alt="" class="" data-wow-delay=".5s">
+                                    <img src="<?php echo $this->baseUrl();?>/skin/img/iphone-black-02.png" alt="" class="" data-wow-delay=".4s">
+                                    <img src="<?php echo $this->baseUrl();?>/skin/img/iphone-white-03-small.png" alt="" class="" data-wow-delay=".5s">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
@@ -491,101 +491,6 @@
             </section>
             <!-- Testimonial Section end -->
 
-
-            <!-- Pricing Table Section start -->
-            <section id="packages" class="scroll-section pricing-table section-space hidden-overflow">
-                <div class="overlay overlay-one"></div>
-                <div class="overlay-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center color-white">
-                                <div class="section-head">
-                                    <h2 class="section-title">Affordable Packages</h2>
-                                    <p>We want the template you downloaded look unique and new for such a long time as it is possible.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row pricing-table-item-wrap">
-                            <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
-                                    <div class="pricing-container">
-                                        <div class="p-t-header">
-                                            <h3 class="pricing-title">Basic</h3>
-                                        </div>
-                                        <div class="p-t-body">
-                                            <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li class="not-include">Video background</li>
-                                                <li class="not-include">Support</li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price"><span>$</span>1.99</div>
-                                            <div class="button">
-                                                <button class="th-btn th-btn-medium th-btn-parent">Select</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-pricing-table pricing-table-style-one best wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".2s">
-                                    <div class="pricing-container">
-                                        <div class="p-t-header">
-                                            <h3 class="pricing-title">Standard</h3>
-                                            <div class="best-tag">Best Plan</div>
-                                        </div>
-                                        <div class="p-t-body">
-                                            <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li>Video background</li>
-                                                <li class="not-include">Support</li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price"><span>$</span>2.99</div>
-                                            <div class="button">
-                                                <button class="th-btn th-btn-medium th-btn-parent">Select</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-pricing-table pricing-table-style-one pro wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".4s">
-                                    <div class="pricing-container">
-                                        <div class="p-t-header">
-                                            <h3 class="pricing-title">Pro</h3>
-                                        </div>
-                                        <div class="p-t-body">
-                                            <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li>Video background</li>
-                                                <li>Support</li>
-                                            </ul>
-                                        </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price"><span>$</span>3.99</div>
-                                            <div class="button">
-                                                <button class="th-btn th-btn-medium th-btn-parent">Select</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Pricing Table Section end -->
-
-
             <!-- Special Offer Section start -->
             <section class="special-offer section-space-top hidden-overflow">
                 <div class="container">
@@ -609,6 +514,47 @@
             </section>
             <!-- Special Offer Section end -->
 
+            <!-- Newsletter Section start -->
+            <section class="news-letter parallux-bg hidden-overflow">
+                <div class="section-relative section-space">
+                    <div class="overlay overlay-four"></div>
+                    <div class="overlay-content">
+                        <div class="container text-center">
+                            <div class="section-head only-title">
+                                <h2 class="section-title color-white">Newsletter</h2>
+                            </div>
+                            <div class="newsletter-form-area">
+                                <form class="mailchimpForm" action="#">
+                                    <input type="email" placeholder="Enter your email">
+                                    <input type="submit">
+                                </form>
+                                <div class="mailchimp-form-message" style="display:none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Newsletter Section end -->
+
+            <!-- Tweet Section start -->
+            <section class="tweet-section section-space hidden-overflow">
+                <div class="container-width">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="twitter-header section-head only-title">
+                                    <i class="fa fa-twitter twitter-icon wow bounceInDown"></i>
+                                    <h2 class="twitter-title">@itsariful</h2>
+                                </div>
+                                <div id="tweets"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="slider-arrow right-arrow tweets-arrow"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="slider-arrow left-arrow tweets-arrow"><i class="fa fa-angle-left"></i></a>
+                </div>
+            </section>
+            <!-- Tweet Section end -->
 
             <!-- Download Section start -->
             <section id="download" class="scroll-section download text-center parallux-bg">
@@ -648,229 +594,6 @@
             </section>
             <!-- Download Section end -->
 
-
-            <!-- Team Member Section start -->
-            <section id="team" class="scroll-section team-member section-space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="section-head">
-                                <h2 class="section-title color-brand">Our Team</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row team-members-wrap">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                            <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall">
-                                <div class="single-team">
-                                    <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
-                                    </div>
-                                    <div class="team-member-info">
-                                        <div class="info-area-top">
-                                            <ul class="social team-social">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Jonh Doe</h3>
-                                            <h5 class="t-m-designation">Team Leader</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                            <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".2s">
-                                <div class="single-team">
-                                    <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
-                                    </div>
-                                    <div class="team-member-info">
-                                        <div class="info-area-top">
-                                            <ul class="social team-social">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Ben Taylor</h3>
-                                            <h5 class="t-m-designation">Lead Developer</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                            <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".4s">
-                                <div class="single-team">
-                                    <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
-                                    </div>
-                                    <div class="team-member-info">
-                                        <div class="info-area-top">
-                                            <ul class="social team-social">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Kevin Stevens</h3>
-                                            <h5 class="t-m-designation">Lead Designer</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                            <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".6s">
-                                <div class="single-team">
-                                    <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
-                                    </div>
-                                    <div class="team-member-info">
-                                        <div class="info-area-top">
-                                            <ul class="social team-social">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Kelley Baldenegro</h3>
-                                            <h5 class="t-m-designation">Project Manager</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Team Member Section end -->
-
-
-            <!-- Blog Section start -->
-            <section id="blog" class="scroll-section blog-section section-space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="section-head">
-                                <h2 class="section-title color-brand">From the Blog</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row home-blog-posts" id="blog-posts">
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="fa fa-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="fa fa-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/350x200 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="fa fa-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="row">
-                        <div class="dol-lg-12 text-center">
-                            <a href="blog-standard.html" class="th-btn th-btn-medium th-btn-default wow fadeInUpSmall">View All</a>
-                        </div>
-                    </div>
-                </div>
-                
-            </section>
-            <!-- Blog Section end -->
-
-
-            <!-- Newsletter Section start -->
-            <section class="news-letter parallux-bg hidden-overflow">
-                <div class="section-relative section-space">
-                    <div class="overlay overlay-four"></div>
-                    <div class="overlay-content">
-                        <div class="container text-center">
-                            <div class="section-head only-title">
-                                <h2 class="section-title color-white">Newsletter</h2>
-                            </div>
-                            <div class="newsletter-form-area">
-                                <form class="mailchimpForm" action="#">
-                                    <input type="email" placeholder="Enter your email">
-                                    <input type="submit">
-                                </form>
-                                <div class="mailchimp-form-message" style="display:none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Newsletter Section end -->
-
-
-            <!-- Tweet Section start -->
-            <section class="tweet-section section-space hidden-overflow">
-                <div class="container-width">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="twitter-header section-head only-title">
-                                    <i class="fa fa-twitter twitter-icon wow bounceInDown"></i>
-                                    <h2 class="twitter-title">@itsariful</h2>
-                                </div>
-                                <div id="tweets"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="slider-arrow right-arrow tweets-arrow"><i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="slider-arrow left-arrow tweets-arrow"><i class="fa fa-angle-left"></i></a>
-                </div>
-            </section>
-            <!-- Tweet Section end -->
-
-
             <!-- Map And Contact Section start -->
             <section class="map-section">
                 <div class="map-header-area overlay-brand">
@@ -887,7 +610,6 @@
                 <!-- Map Area end -->
             </section>
             <!-- Map And Contact Section end -->
-
 
             <!-- Contact Area start -->
             <section id="contact" class="contact scroll-section">
