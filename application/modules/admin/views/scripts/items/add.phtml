@@ -1,0 +1,103 @@
+<!-- ============================================================== -->
+<!-- Start Content here -->
+<!-- ============================================================== -->                      
+<div class="content-page">
+    <!-- Start content -->
+    <div class="content">
+        <div class="container">
+
+            <!-- Page-Title -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="pull-left page-title">Add Items</h4>
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="<?php echo $this->baseUrl();?>/admin/dashboard/">Dashboard</a></li>
+                        <li class="active">Add Items</li>
+                    </ol>
+                </div>
+            </div>
+            <?php if($this->message!=null) {?>
+            <?php echo $this->message;?> <!-- message error usually red color styling-->
+            <?php } else if ($this->msg !=null) {?>
+            <?php echo $this->msg;?>  <!-- message success usually green color styling-->
+            <?php }?>
+			<div class="panel">
+                <div class="panel-body">
+		            <div class="row">
+                        <div class="col-sm-12">
+                            <form class="cmxform form-horizontal tasi-form" id="signupForm" method="post">
+                                <div class="form-group ">
+                                    <label for="sku" class="control-label col-lg-2">SKU Number *</label>
+                                    <div class="col-lg-10">
+                                        <input class=" form-control" id="sku" name="sku" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="name" class="control-label col-lg-2">Name Items *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="name" name="name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="price" class="control-label col-lg-2">Price *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="price" name="price" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="sale" class="control-label col-lg-2">Sale Price *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="sale" name="sale" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="last_sale_date" class="control-label col-lg-2">Last Sale Date *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="last_sale_date" name="last_sale_date" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="vat" class="control-label col-lg-2">Vat Items *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="vat" name="vat" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="onhand" class="control-label col-lg-2">On Hand *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="onhand" name="onhand" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="day_sales_avg" class="control-label col-lg-2">Day Sales Average *</label>
+                                    <div class="col-lg-10">
+                                        <input class="form-control" id="day_sales_avg" name="day_sales_avg" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-offset-2 col-lg-10">
+                                        <button class="btn btn-success waves-effect waves-light" type="submit">Save</button>
+                                        <a href="<?php echo $this->baseUrl();?>/admin/useradmin/" style="text-decoration: none;"><button class="btn btn-default waves-effect" type="button">Cancel</button></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div> <!-- col -->
+
+                    </div> <!-- End row -->
+	            </div>
+            </div>
+        </div>
+    </div>
+<?php echo $this->render('include/footer.phtml') ?>
+
+</div>
+
+<!-- ============================================================== -->
+<!-- End Content here -->
+<!-- ============================================================== -->  
+
+<!--form validation-->
+<script type="text/javascript" src="<?php echo $this->baseUrl();?>/skin_admin/assets/jquery.validate/jquery.validate.min.js"></script>
+
+<!--form validation init-->
+<script src="<?php echo $this->baseUrl();?>/skin_admin/assets/jquery.validate/form-validation-init.js"></script>
